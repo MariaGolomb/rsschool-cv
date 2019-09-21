@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
@@ -12,7 +13,7 @@
             <h1>Curriculum Vitae for Position of Junior Developer.</h1>
 
             <figure>
-                <img src="">
+                <img src="./img/photo.jpg" alt="photo">
             </figure>
             <ol>
                 <li><b>Maria Golomb</b></li>
@@ -27,31 +28,31 @@
                             <p class="first">function toBinaty(num){</p>
                                 <p class="second">let res=[];</p>
                                 <p class="third">while(num>0){</p>
-                                    <p class="forth">rem=num%2;</p>
-                                    <p class="forth">res.push(rem);</p>
-                                    <p class="forth">num=Math.floor(num/2);</p>      
+                                <p class="forth">rem=num%2;</p>
+                                <p class="forth">res.push(rem);</p>
+                                <p class="forth">num=Math.floor(num/2);</p>      
                                 <p class="third">}</p>
                                 <p class="second">return res.reverse().join('');</p>
                             <p class="first">}</p>
                     </div>
                     <div class="code">
                             <p class="first">function isValidIP(str) {</p>
-                                <p class="second">const arrOfChar=new Array(256).fill(1).map((num, i)=>(num+i-1).toString());</p>
-                                <p class="second">return str.split('.').length==4 
+                            <p class="second">const arrOfChar=new Array(256).fill(1).map((num, i)=>(num+i-1).toString());</p>
+                            <p class="second">return str.split('.').length==4 
                                 && str.split('.').filter(current=>!arrOfChar.includes(current)).length==0
                             <p class="first">}</p>
                     </div>
                     <div class="code">
                             <p class="first">function longest(s1, s2) {</p>
-                                <p clas="second">let s=s1+s2;</p>
-                                <p clas="second">let sortArr=s.split('').sort();</p>
-                                <p class="second">let helpObj={};</p>
-                                <p clas="second">for(let i=0; i&ltsortArr.length; i++){</p>
-                                <p clas="third">    let k=sortArr[i];</p>
-                                <p clas="third">    helpObj[k]=true;</p>
-                                <p class="second">}</p>
-                                <p class="second">}return Object.keys(helpObj).join('');   </p>
-                          <p class="first">}</p>
+                            <p class="second">let sortArr=s.split('').sort();</p>
+                            <p class="second">let helpObj={};</p>
+                            <p class="second">for(let i=0; i&ltsortArr.length; i++){</p>
+                            <p class="third">    let k=sortArr[i];</p>
+                            <p class="third">    helpObj[k]=true;</p>
+                            <p class="second">}</p>
+                            <p class="second">}return Object.keys(helpObj).join('');</p>
+                            <p class="first">}</p> 
+                                
                     </div>
                
 
