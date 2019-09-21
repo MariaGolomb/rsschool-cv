@@ -1,3 +1,6 @@
+body {
+    font-family: "Helvetica", "Tahoma", sans-serif;
+  }
 main {
     max-width: 1024px;
     margin: 0 auto;
@@ -5,8 +8,6 @@ main {
 }
 
 img {
-    height: 264px;
-    width: 294px;
     border: 1px black solid;
 }
 
