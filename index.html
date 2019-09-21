@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <article>
+            <h1>Curriculum Vitae for Position of Junior Developer.</h1>
+
+            <figure>
+                <img src="./img/photo.jpg" alt="photo"  height="264" width="294">
+            </figure>
+            <ol>
+                <li><b>Maria Golomb</b></li>
+                <li><b>Contact Info:</b> Telephone: +375 29 633 61 63; email: marialukashuk.ml@gmail.com </li>
+                <li><b>Summary:</b> Want to become good JS developer. Wish to improve my knowledge in such areas as front end development 
+                    using HTML, CSS and different JS frameworks and learn JS and JS frameworks that are used to implement Back End, 
+                    because want in future implement both Back and Front End. Have some basic development background from university(BSUIR) 
+                    and some experience as a system Analyst in Belarusbank(2012-2016). All the time try to learn new.</li>
+                <li><b>Skills:</b> Basic knowledge of HTML, CSS, JS, Git.</li>
+                <li><b>Code examples:</b>
+                    <div class="code">
+                            <p class="first">function toBinaty(num){</p>
+                                <p class="second">let res=[];</p>
+                                <p class="third">while(num>0){</p>
+                                <p class="forth">rem=num%2;</p>
+                                <p class="forth">res.push(rem);</p>
+                                <p class="forth">num=Math.floor(num/2);</p>      
+                                <p class="third">}</p>
+                                <p class="second">return res.reverse().join('');</p>
+                            <p class="first">}</p>
+                    </div>
+                    <div class="code">
+                            <p class="first">function isValidIP(str) {</p>
+                            <p class="second">const arrOfChar=new Array(256).fill(1).map((num, i)=>(num+i-1).toString());</p>
+                            <p class="second">return str.split('.').length==4 
+                                && str.split('.').filter(current=>!arrOfChar.includes(current)).length==0
+                            <p class="first">}</p>
+                    </div>
+                    <div class="code">
+                            <p class="first">function longest(s1, s2) {</p>
+                            <p class="second">let sortArr=s.split('').sort();</p>
+                            <p class="second">let helpObj={};</p>
+                            <p class="second">for(let i=0; i&lt;sortArr.length; i++){</p>
+                            <p class="third">    let k=sortArr[i];</p>
+                            <p class="third">    helpObj[k]=true;</p>
+                            <p class="second">}</p>
+                            <p class="second">}return Object.keys(helpObj).join('');</p>
+                            <p class="first">}</p> 
+                                
+                    </div>
+               
+
+                    <li><b>Experience:</b> Projects related to HTML, CSS, JS and React on Codecademy. <a href="https://github.com/MariaGolomb/Ravenous">Link to project.</a></li>
+                    <li><b>Education:</b> BSUIR, Faculty of Information Technologies and Management(2007-2012); Course of Web Development on Codecademy.</li>
+                    <li><b>English:</b> Pre Intermediate(A2).</li>
+            </ol>
+        </article>
+    </main>
+
+</body>
+</html>
