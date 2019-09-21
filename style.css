@@ -2,17 +2,23 @@ main {
     max-width: 1024px;
     margin: 0 auto;
     box-sizing: border-box;
-    border: 1px black solid;
 }
 
 img {
-    //hieght and wieght
+    height: 264px;
+    width: 294px;
+    border: 1px black solid;
+}
+
+h1 {
+    margin-left:16px;
 }
 
 .code {
-    margin-left: 5%;
-    margin-bottom: 2%;
-    border: 1px black solid;
+    box-sizing: border-box;
+    padding: 16px;
+    margin: 0 16px 16px 0;
+    background-color: #f6f8fa;
 
 }
 
