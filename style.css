@@ -1,0 +1,40 @@
+body {
+    font-family: "Helvetica", "Tahoma", sans-serif;
+  }
+main {
+    max-width: 1024px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+img {
+    border: 1px black solid;
+}
+
+h1 {
+    margin-left:16px;
+}
+
+.code {
+    box-sizing: border-box;
+    padding: 16px;
+    margin: 0 16px 16px 0;
+    background-color: #f6f8fa;
+
+}
+
+.first {
+    margin: 0;
+}
+
+.second {
+    margin: 0 0 0 20px;
+}
+
+.third {
+    margin: 0 0 0 40px;
+}
+
+.forth {
+    margin: 0 0 0 60px;
+}
